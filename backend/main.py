@@ -24,7 +24,7 @@ app = FastAPI()
 # Allow all origins, methods, and headers
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Adjust this to specific origins if needed
+    allow_origins=["https://nice-sand-086503610.6.azurestaticapps.net"],  # Adjust this to specific origins if needed
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
